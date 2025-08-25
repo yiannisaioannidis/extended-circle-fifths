@@ -26,7 +26,7 @@ This method creates an isolated Python environment to prevent conflicts with oth
 
 ```bash
 # 1. Download or clone this repository
-git clone https://github.com/your-username/circle-of-fifths-visualizer.git
+git clone https://github.com/yiannisaioannidis/circle-of-fifths-visualizer.git
 cd circle-of-fifths-visualizer
 
 # 2. Create a virtual environment
@@ -58,3 +58,4 @@ pip install numpy matplotlib
 
 # 3. Run the application
 python circle_of_fifths.py
+
