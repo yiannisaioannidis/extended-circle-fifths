@@ -1,22 +1,25 @@
-# Extended Circle of Fifths Visualizer
-
-An interactive Python application that visualizes the extended circle of fifths with chord transformation capabilities.
-
-## Features
-
-- Interactive circle of fifths with 24 chords
-- Record chord sequences by clicking on the circle
-- Apply various transformations (mirroring, rotation)
-- Drag and drop functionality for chord points
-- Visual feedback for selected chords
-
-## Requirements
-
-- Python 3.x
-- NumPy
-- Matplotlib
-
 ## Installation
+Using virtual environment (recommended)
 
 ```bash
-pip install numpy matplotlib
+# Clone this repository
+git clone https://github.com/your-username/circle-of-fifths-visualizer.git
+cd circle-of-fifths-visualizer
+
+# Create and activate virtual environment
+python -m venv venv
+
+# On Windows:
+venv\Scripts\activate
+
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python circle_of_fifths.py
+
+# When done, deactivate the environment
+deactivate
